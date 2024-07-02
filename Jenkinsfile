@@ -26,7 +26,8 @@ pipeline {
                                 cd ${env.SERVER_PATH}
                                 git clone ${env.REPO_URL} .
                             fi
-                            cp .env.example ./.env
+                            cd ${env.SERVER_PATH}
+                            cp .env.example .env
                             composer install
                             npm install
                             php artisan up
