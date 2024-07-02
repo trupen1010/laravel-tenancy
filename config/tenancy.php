@@ -24,7 +24,7 @@ return [
     ], */
 
     'central_domains' => [
-        'laravel-tenancy.test',
+        'trupen.test',
     ],
 
     /**
