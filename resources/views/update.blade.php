@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit Tenant</title>
+    <title>Edit Tenant this is test</title>
     <style>
         body {
             font-family: Arial, sans-serif;
