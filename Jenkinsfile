@@ -26,7 +26,7 @@ pipeline {
                                 cd ${env.SERVER_PATH}
                                 git clone ${env.REPO_URL} .
                             fi
-                            cd ${env.SERVER_PATH}
+                            cd /var/www/
                             cp .env.example .env
                             composer install
                             npm install
